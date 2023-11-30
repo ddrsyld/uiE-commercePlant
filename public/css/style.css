@@ -1,0 +1,158 @@
+* {
+    font-family: Poppins;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)),url('../img/headerbg.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 16rem 0 !important;
+}
+
+.header-contact {
+    background: linear-gradient(rgba(90, 90, 90, 0.5), rgba(90, 90, 90, 0.5)),url('../img/headerbg.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 7rem 0 !important;
+}
+
+.bg-success {
+    box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.3);
+}
+
+.card-fruit {
+    box-shadow: 0 5px 10px #8888 !important;
+    overflow: hidden;
+    border: none !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body img{
+    transition: all 0.3s ease;
+}
+
+.card:hover .card-body img {
+    transform: scale(1.2);
+}
+
+.cf1:hover {
+    background: linear-gradient(#ffa200, #d55215) !important;
+}
+.cf2:hover {
+    background: linear-gradient(#00b3ff, #0026ff) !important;
+}
+.cf3:hover {
+    background: linear-gradient(#ff5151, #cf0000) !important;
+}
+.cf4:hover {
+    background: linear-gradient(#fffb00, #aaff00) !important;
+}
+.cf5:hover {
+    background: linear-gradient(#ff2a00, #a40000) !important;
+}
+
+.fade-right {
+    animation: dari-kanan 1.1s;
+}
+
+.fade-left {
+    animation: dari-kiri 1.1s;
+}
+
+@keyframes dari-kanan {
+    0% {
+        opacity: 0;
+        transform: translateX(5rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes dari-kiri {
+    0% {
+        opacity: 0;
+        transform: translateX(-5rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.card{
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 10px green;
+    overflow: hidden;
+}
+
+.card:hover {
+    background: green;
+    color: white;
+    transform: translateY(10px);
+    box-shadow: 0 5px 10px #8888;
+}
+
+.card:hover .card-body .card-link{
+    color: white !important;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.card:hover .card-body .btn {
+    background-color: white;
+    color: green;
+}
+
+.card-img-top {
+    transition: all 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.ft-by{
+    box-shadow: 0 -1px 10px rgba(34, 255, 0, 0.5);
+}
+
+.foot-item:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.card-header{
+    backdrop-filter: blur(25px);
+    border: 1px solid hsl(0, 0%, 100%) !important;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
+    border-radius: 10px !important;
+}
+
+.contact-icon a:hover{
+    color: rgb(0, 165, 3);
+}
+
+.contact-icon a{
+    color: white;
+    font-size: 40px;
+}
+
+.e-commerce a{
+    border: 1px solid white;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 10px;
+}
+
+.e-commerce a:hover{
+    background-color: green;
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: white;
+}
